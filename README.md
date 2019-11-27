@@ -15,4 +15,7 @@ Y otra como esta en el index.html:
   
 Añadir CUSTOM_ELEMENTS_SCHEMA en el modulo.
 
-Más info en
+Más info en: https://www.adictosaltrabajo.com/2019/01/31/reutilizando-web-components-generados-por-stencil/
+
+
+Este repositorio contienen una implementación de Angular-Elements que de momento no va con el compilador Ivy de Angular ni se pueden importar los web components de Angular en otros Frameworks.
