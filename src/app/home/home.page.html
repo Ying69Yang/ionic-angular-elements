@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    The world is your oyster.
+    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    Angular team are working on custom elements that can be used by web apps built on other frameworks.
+  </div>
+  <input #input value="Message">
+  <button (click)="popup.showAsElement(input.value)">Show as element</button>
+
+  <my-component first="Marcos" middle="Varela" last="Rego"></my-component> Viene de stencil-component
+</ion-content>
